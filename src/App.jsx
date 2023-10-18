@@ -7,6 +7,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import Test from "./components/Test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,7 +15,8 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Test />
+      {/* <Main /> */}
       <Footer />
     </>
   );
