@@ -5,8 +5,7 @@ import { useState } from "react";
 
 // main components
 import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import About from "./components/About";
 import Test from "./components/Test";
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
     <>
       <Header />
       <Test />
-      {/* <Main /> */}
-      <Footer />
+      <About />
     </>
   );
 }

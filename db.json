@@ -15,5 +15,22 @@
       "title": "Amazon",
       "price": "832.23"
     }
+  ],
+  "crypto": [
+    {
+      "id": 1,
+      "title": "Bitcoin",
+      "price": "333323.87"
+    },
+    {
+      "id": 2,
+      "title": "Etherium",
+      "price": "33323.34."
+    },
+    {
+      "id": 3,
+      "title": "LiteCoin",
+      "price": "833332.23"
+    }
   ]
 }

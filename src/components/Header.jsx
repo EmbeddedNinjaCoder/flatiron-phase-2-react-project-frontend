@@ -2,17 +2,17 @@ const Header = () => {
   return (
     <>
       <header>
-        <h1>REACT Component 1 Test</h1>
+        <h1>Stock Evaluator</h1>
         <nav>
           <ul>
             <li>
-              <a href="#some-id1">REACT Component 1 Test</a>
+              <a href="#home">Hme</a>
             </li>
             <li>
-              <a href="#some-id2">REACT Component 1 Test</a>
+              <a href="#stock-page">Stock Examinator</a>
             </li>
             <li>
-              <a href="#some-id3">REACT Component 1 Test</a>
+              <a href="#about">About</a>
             </li>
           </ul>
         </nav>

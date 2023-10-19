@@ -1,5 +1,5 @@
 const Test = () => {
-  function retrieveStocks(stockList) {
+  function retrieveSecurity(stockList) {
     stockList.forEach((security) => {
       console.log(security);
     });
@@ -8,7 +8,7 @@ const Test = () => {
   function stockFetchTest() {
     fetch("http://localhost:3000/stocks")
       .then((r) => r.json())
-      .then((stocks) => retrieveStocks(stocks))
+      .then((stocks) => retrieveSecurity(stocks))
       .catch((error) => alert(error));
   }
   stockFetchTest();
@@ -17,9 +17,9 @@ const Test = () => {
     <>
       <footer>
         <li>
-          <a href="#" target="_blank">
-            REACT Component 2 Test
-          </a>
+          {/* <a href="#fetch-test" target="_blank"> */}
+          REACT Component 2 Test
+          {/* </a> */}
         </li>
       </footer>
     </>
